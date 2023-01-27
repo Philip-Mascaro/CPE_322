@@ -8,8 +8,6 @@
 ***Bold and italics***
 testing <sub> subscript text</sub> and <sup>uperscript text</sup>
 
-colors: white `#ffffff` and black `#000000` and blue `rgb(9, 105, 218)`
-
 > Fake quote
 
 ```
