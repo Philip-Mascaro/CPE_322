@@ -32,6 +32,7 @@ $ python3 thingspeak_feed.py
 An API key savefile was not found. Enter Write API Key >>>
 Should we save this key for future use? [y/N] >>>
 ```
+API key is hidden
 ![l7s06.png](images/l7s06.png)
 
 data collected
