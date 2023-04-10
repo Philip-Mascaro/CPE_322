@@ -57,6 +57,7 @@ did cpudata
 Credential > Create Credentials > Create service account key > Service account > rpidata > JSON key type > Create > download rpidata-xxxxxxxxxxxx.json
 ```
 ![l7s12.png](images/l7s12.png)
+key hidden
 ![l7s13.png](images/l7s13.png)
 
 ```
@@ -73,6 +74,7 @@ did not need system_info.py because I am doing a cpudata project
 ![l7s15.png](images/l7s15.png)
 
 files properly copied to demo folder
+key hidden
 ![l7s16.png](images/l7s16.png)
 
 ```
@@ -95,6 +97,7 @@ Delete Rows 2 to 1000, and enter Date / Time, CPU Usage %, Temperature C (or Mem
 Edit rpi_spreadsheet.py
 ```
 edited cpu_spreadsheet.py
+key hidden
 ![l7s21.png](images/l7s21.png)
 
 ```
