@@ -63,14 +63,46 @@ $ sudo pip3 install -U gspread oauth2client
 ```
 ![l7s14.png](images/l7s14.png)
 
-ghghgh
+```
+$ cd demo
+$ cp ~/iot/lesson3/system_info.py .
+$ cp ~/iot/lesson7/rpi_spreadsheet.py .
+```
+did not need system_info.py because I am doing a cpudata project
 ![l7s15.png](images/l7s15.png)
+
+files properly copied to demo folder
 ![l7s16.png](images/l7s16.png)
+
+```
+Start a new spreadsheet rpidata (or cpudata)
+```
 ![l7s17.png](images/l7s17.png)
+
+```
+Share the spreadsheet with the "client_email" address in the .json file, select “Can edit,” and click "Send"
+```
 ![l7s18.png](images/l7s18.png)
+
+```
+Delete Rows 2 to 1000, and enter Date / Time, CPU Usage %, Temperature C (or Memory Available GB for cpudata) to header cells
+```
 ![l7s19.png](images/l7s19.png)
 ![l7s20.png](images/l7s20.png)
+
+```
+Edit rpi_spreadsheet.py
+```
+edited cpu_spreadsheet.py
 ![l7s21.png](images/l7s21.png)
+
+```
+$ python3 rpi_spreadsheet.py
+```
 ![l7s22.png](images/l7s22.png)
+
+data properly collecting
 ![l7s23.png](images/l7s23.png)
+
+[spreadsheet can be viewed by anyone with the link](https://docs.google.com/spreadsheets/d/1HkHynE6UBCzZVbJZs3Eoyt9ftPxSCAv70VdLFH6KNss/edit?usp=sharing)
 ![l7s24.png](images/l7s24.png)
