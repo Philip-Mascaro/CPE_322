@@ -37,11 +37,11 @@ $ python3 plt_cv2.py
 ![l8s06.png](images/l8s06.png)
 
 Figure 1\
-cannot see Memory Available GB series well
+cannot see Memory Available GB series well\
 ![l8s07.png](images/l8s07.png)
 
 Figure 1 larger\
-can now see Memory Available GB series well
+can now see Memory Available GB series well\
 ![l8s08.png](images/l8s08.png)
 
 Figure 2
