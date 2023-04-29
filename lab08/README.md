@@ -41,7 +41,7 @@ cannot see Memory Available GB series well\
 ![l8s07.png](images/l8s07.png)
 
 Figure 1 larger\
-can now see Memory Available GB series well\
+can now see Memory Available GB series well
 ![l8s08.png](images/l8s08.png)
 
 Figure 2
