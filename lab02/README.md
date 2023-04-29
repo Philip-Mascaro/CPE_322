@@ -69,7 +69,7 @@ man uname command does not work on Windows PowerShell, test again later
 $ ifconfig
 $ ping localhost
 ```
-```
+
 ifconfig command does not work on Windows PowerShell, test again later
 ![l2s14.png](images/l2s14.png)
 
