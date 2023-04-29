@@ -44,20 +44,20 @@ Figure 1 larger\
 can now see Memory Available GB series well
 ![l8s08.png](images/l8s08.png)
 
-Figure 2
+Figure 2\
 ![l8s09.png](images/l8s09.png)
 
-Figure 3
+Figure 3\
 ![l8s10.png](images/l8s10.png)
 
-Figure 4
+Figure 4\
 ![l8s11.png](images/l8s11.png)
 
-Figure 5
+Figure 5\
 ![l8s12.png](images/l8s12.png)
 
-Figure 6
+Figure 6\
 ![l8s13.png](images/l8s13.png)
 
-Figure 7
+Figure 7\
 ![l8s14.png](images/l8s14.png)
