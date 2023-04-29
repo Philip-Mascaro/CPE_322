@@ -19,9 +19,9 @@ $ nano plt_final.py
 $ nano plt_cv2.py
 ```
 update the data series and the chart titles\
-1.plt_final.py:
+1. plt_final.py:
   - data = read_csv('cpudata - Sheet1.csv') \
-2.plt_cv2.py:
+2. plt_cv2.py:
   - X = read_csv('cpudata - Sheet1.csv', usecols=[1])
   - y = read_csv('cpudata - Sheet1.csv', usecols=[2])
 
