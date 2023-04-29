@@ -62,15 +62,14 @@ $ clear
 ```
 $ man uname
 ```
-man uname command does not work on Windows PowerShell, test again later
+command man uname does not work on Windows PowerShell, test again later
 ![l2s13.png](images/l2s13.png)
 
 ```
 $ ifconfig
 $ ping localhost
 ```
-
-ifconfig command does not work on Windows PowerShell, test again later
+command ifconfig does not work on Windows PowerShell, test again later
 ![l2s14.png](images/l2s14.png)
 
 ```
