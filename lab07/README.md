@@ -73,7 +73,8 @@ $ cp ~/iot/lesson7/rpi_spreadsheet.py .
 did not need system_info.py because I am doing a cpudata project
 ![l7s15.png](images/l7s15.png)
 
-files properly copied to demo folder, key hidden
+files properly copied to demo folder\
+key hidden
 ![l7s16.png](images/l7s16.png)
 
 ```
@@ -95,7 +96,8 @@ Delete Rows 2 to 1000, and enter Date / Time, CPU Usage %, Temperature C (or Mem
 ```
 Edit rpi_spreadsheet.py
 ```
-edited cpu_spreadsheet.py, key hidden
+edited cpu_spreadsheet.py\
+key hidden
 ![l7s21.png](images/l7s21.png)
 
 ```
