@@ -1,0 +1,10 @@
+note: will add copyable commands later
+![l5s01.png](images/l5s01.png)
+![l5s02.png](images/l5s02.png)
+![l5s03.png](images/l5s03.png)
+![l5s04.png](images/l5s04.png)
+![l5s05.png](images/l5s05.png)
+![l5s06.png](images/l5s06.png)
+![l5s07.png](images/l5s07.png)
+![l5s08.png](images/l5s08.png)
+![l5s09.png](images/l5s09.png)
