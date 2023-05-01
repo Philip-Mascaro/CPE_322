@@ -1,0 +1,13 @@
+note: will add copyable commands later
+![l1s01.png](images/l1s01.png)
+![l1s02.png](images/l1s02.png)
+![l1s03.png](images/l1s03.png)
+![l1s04.png](images/l1s04.png)
+![l1s05.png](images/l1s05.png)
+![l1s06.png](images/l1s06.png)
+![l1s07.png](images/l1s07.png)
+![l1s08.png](images/l1s08.png)
+![l1s09.png](images/l1s09.png)
+![l1s10.png](images/l1s10.png)
+![l1s11.png](images/l1s11.png)
+![l1s12.png](images/l1s12.png)
