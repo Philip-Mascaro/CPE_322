@@ -35,7 +35,9 @@ $ curl localhost:5000/mine
 ![l10s08.png](images/l10s08.png)
 ![l10s09.png](images/l10s09.png)
 
+```
 Uncomment the last line of node_server.py
+```
 ```
 $ git clone https://github.com/satwikkansal/python_blockchain_app.git
 $ cd ~/python_blockchain_app
@@ -57,7 +59,9 @@ $ python3 run_app.py
 
 ```
 Via VNC viewer, open a browser on Raspberry Pi and go to YourNet running at http://127.0.0.1:5000/
+
 Enter content and name, click "Post," and click "Request to mine" that generate "Block #1 is mined" at http://127.0.0.1:8000/mine
+
 At YourNet, click "Resync" to view Block #1
 ```
 ![l10s14.png](images/l10s14.png)
