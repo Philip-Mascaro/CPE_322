@@ -22,7 +22,7 @@ at this point I thought it wasn't working because I downloaded Mosquitto on Wind
 ![l5s05.png](images/l5s05.png)
 ![l5s06.png](images/l5s06.png)
 
-at this point I realized that I only needed to run subcpu.py and pubcpu.py/
+at this point I realized that I only needed to run subcpu.py and pubcpu.py /
 
 use two terminals, one for each command
 ```
