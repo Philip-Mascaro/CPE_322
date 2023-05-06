@@ -1,4 +1,4 @@
-the repositories used for the labs are the [dsd repository](https://github.com/kevinwlu/dsd) and the [iot repository](https://github.com/kevinwlu/iot)\
+the repositories used for the labs are the [dsd repository](https://github.com/kevinwlu/dsd) and the [iot repository](https://github.com/kevinwlu/iot) created by [Dr. Kevin Lu](https://www.stevens.edu/profile/klu2)
 
 here are the abridged instructions used for the labs:
 1. [lab 1](https://docs.google.com/presentation/d/1Uh1TXoYzjnceXi6R4fjWkOPfbCHY4uNWmRdT_rICJ2c/edit#slide=id.g1c5b58de06b_0_0)
