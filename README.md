@@ -12,7 +12,9 @@ here are the abridged instructions used for the labs:
 9. [lab 9](https://docs.google.com/presentation/d/1Tw-yd9MB7jS9-2BuIQ1j_0p2jk3b3DL2yqjNIA_4fm8/edit#slide=id.gfcf8466d9f_0_0)
 10. [lab 10](https://docs.google.com/presentation/d/1PoPRIQ1phKxwPFS8jQjqEyGUThd3zaEeqaHt_Y151us/edit#slide=id.gfa31ccf571_0_0)
 
-here are some [additional projects](https://sites.google.com/view/ece322/projects) if you need more reference
+here are some [additional projects](https://sites.google.com/view/ece322/projects) if you need more reference\
+\
+from this point down are some markdown tips and tricks that might be useful!
 
 # Overarching title
 ## First section title
