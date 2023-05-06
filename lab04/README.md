@@ -1,5 +1,5 @@
-note: will add copyable commands later
-'''
+
+```
 $ pip3 -V
 $ pip3 list
 $ sudo pip3 install -U setuptools
@@ -8,7 +8,7 @@ $ sudo pip3 install -U djangorestframework
 $ sudo pip3 install -U django-filter
 $ sudo pip3 install -U markdown
 $ sudo pip3 install -U requests
-'''
+```
 ![l4s01.png](images/l4s01.png)
 ![l4s02.png](images/l4s02.png)
 ![l4s03.png](images/l4s03.png)
