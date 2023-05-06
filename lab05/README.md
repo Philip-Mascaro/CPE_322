@@ -1,4 +1,3 @@
-note: will add copyable commands later\
 download and install Mosquitto
 
 ```
