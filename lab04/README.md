@@ -176,7 +176,8 @@ View app at http://127.0.0.1:8000
 ![l4s33.png](images/l4s33.png)
 ![l4s34.png](images/l4s34.png)
 
-NOTE: FROM THIS POINT DOWN I CREATED THE FOLDER IN THE WRONG SPOT BECAUSE I DIDN'T REALIZE I WAS SUPPOSED TO BE IN THE ROOT FOLDER
+NOTE: FROM THIS POINT DOWN I CREATED THE FOLDER IN THE WRONG SPOT BECAUSE I DIDN'T REALIZE I WAS SUPPOSED TO BE IN THE ROOT FOLDER\
+this causes errors which I was able to eventually fix, but I will show the entire process
 ```
 ~ $ django-admin startproject mycpu
 ~ $ cd mycpu
@@ -328,6 +329,7 @@ using another window because the server is running in the first window
 ```
 View app at http://127.0.0.1:8000/home
 ```
+from this point down there are errors that I fix later, but I want to show the issues I encountered
 for some reason the website wasnt loading properly
 ![l4s56.png](images/l4s56.png)
 
@@ -348,6 +350,7 @@ Alternatively, run Django server at 0.0.0.0:8000
 ```
 ![l4s61.png](images/l4s61.png)
 because it was still not working, I decided to move on and troubleshoot it at a later time\
+from this point until the troubleshooting section there are no errors\
 
 ```
 $ cd ~/iot/lesson4
