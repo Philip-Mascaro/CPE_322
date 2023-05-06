@@ -109,10 +109,34 @@ pi@raspberrypi:~/stevens/myapp/templates/myapp $ cp ~/iot/lesson4/stevens/index.
 ```
 ![l4s22.png](images/l4s22.png)
 
-ghghgh
+```
+Enable Google Maps API
+Application programming interface (API)
+https://cloud.google.com/maps-platform
+https://developers.google.com/maps/documentation/javascript/get-api-key
+https://churchthemes.com/page-didnt-load-google-maps-correctly
+```
+api is pay-to-use :(\
+this is what you would do if you are willing to pay:
+```
+pi@raspberrypi:~/stevens/myapp/templates/myapp $ nano index.html
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+```
 ![l4s23.png](images/l4s23.png)
 ![l4s24.png](images/l4s24.png)
+
+```
+pi@raspberrypi:~/stevens/myapp/templates/myapp $ cd ~/stevens/myapp/static
+pi@raspberrypi:~/stevens/myapp/static $ cp ~/iot/lesson4/static/favicon.ico .
+pi@raspberrypi:~/stevens/myapp/static $ mkdir myapp
+pi@raspberrypi:~/stevens/myapp/static $ cd myapp
+pi@raspberrypi:~/stevens/myapp/static/myapp $ cp ~/iot/lesson4/static/*css .
+pi@raspberrypi:~/stevens/myapp/static/myapp $ cp ~/iot/lesson4/static/*js .
+pi@raspberrypi:~/stevens/myapp/static/myapp $ cd ~/stevens
+```
 ![l4s25.png](images/l4s25.png)
+
+ghghgh
 ![l4s26.png](images/l4s26.png)
 ![l4s27.png](images/l4s27.png)
 ![l4s28.png](images/l4s28.png)
