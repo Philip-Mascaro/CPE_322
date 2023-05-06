@@ -350,7 +350,7 @@ Alternatively, run Django server at 0.0.0.0:8000
 ```
 ![l4s61.png](images/l4s61.png)
 because it was still not working, I decided to move on and troubleshoot it at a later time\
-from this point until the troubleshooting section there are no errors\
+from this point until the troubleshooting section there are no errors
 
 ```
 $ cd ~/iot/lesson4
