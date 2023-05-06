@@ -1,4 +1,3 @@
-note: will add copyable commands later
 ```
 $ cd ~/iot/lesson10
 $ cat hash_value.py
