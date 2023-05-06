@@ -1,5 +1,3 @@
-note: will add copyable commands later
-
 download GHDL and GTKWave according to instructions on [dsd repo](https://github.com/kevinwlu/dsd/tree/master/ghdl)
 ```
 $ git clone https://github.com/kevinwlu/dsd.git
