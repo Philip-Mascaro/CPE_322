@@ -136,25 +136,124 @@ pi@raspberrypi:~/stevens/myapp/static/myapp $ cd ~/stevens
 ```
 ![l4s25.png](images/l4s25.png)
 
-ghghgh
+```
+pi@raspberrypi:~/stevens $ python3 manage.py makemigrations myapp
+pi@raspberrypi:~/stevens $ python3 manage.py migrate
+pi@raspberrypi:~/stevens $ python3 manage.py createsuperuser
+Username (leave blank to use 'pi'):
+Email address: EMAIL_ADDRESS
+Password: PASSWORD
+Password (again): PASSWORD
+Superuser created successfully.
+```
 ![l4s26.png](images/l4s26.png)
 ![l4s27.png](images/l4s27.png)
+
+```
+pi@raspberrypi:~/stevens $ python3 manage.py runserver
+```
 ![l4s28.png](images/l4s28.png)
+
+```
+Go to http://127.0.0.1:8000/admin
+Login with Django administration username (pi) and password
+Click temperature data to add
+Date and time in YYYY-MM-DD HH:MM:SS
+
+Temperature in Fahrenheit
+
+Latitude 40.7451
+
+Longitude -74.0255
+
+Click SAVE
+View app at http://127.0.0.1:8000
+```
 ![l4s29.png](images/l4s29.png)
 ![l4s30.png](images/l4s30.png)
 ![l4s31.png](images/l4s31.png)
 ![l4s32.png](images/l4s32.png)
 ![l4s33.png](images/l4s33.png)
 ![l4s34.png](images/l4s34.png)
+
+NOTE: FROM THIS POINT DOWN I CREATED THE FOLDER IN THE WRONG SPOT BECAUSE I DIDN'T REALIZE I WAS SUPPOSED TO BE IN THE ROOT FOLDER
+```
+~ $ django-admin startproject mycpu
+~ $ cd mycpu
+~/mycpu $ ls
+```
+```
+~/mycpu $ python manage.py startapp myapp
+~/mycpu $ ls
+```
 ![l4s35.png](images/l4s35.png)
+
+```
+~/mycpu $ cd mycpu
+~/mycpu/mycpu $ ls
+~/mycpu/mycpu $ nano settings.py
+```
+```
+Follow ~/iot/lesson4/mycpu/settings.txt, e.g., add an asterisk to ALLOWED_HOSTS and 'myapp' and 'rest_framework' to INSTALLED_APPS
+The comma after 'rest_framework' is required
+```
+```
+~/mycpu/mycpu $ cp ~/iot/lesson4/mycpu/urls.py .
+~/mycpu/mycpu $ cd ..
+```
 ![l4s36.png](images/l4s36.png)
 ![l4s37.png](images/l4s37.png)
 ![l4s38.png](images/l4s38.png)
+
+
+```
+~/mycpu $ cd myapp
+~/mycpu/myapp $ ls
+~/mycpu/myapp $ cp ~/iot/lesson4/mycpu/admin.py .
+~/mycpu/myapp $ cp ~/iot/lesson4/mycpu/models.py .
+~/mycpu/myapp $ cp ~/iot/lesson4/mycpu/views.py .
+~/mycpu/myapp $ cp ~/iot/lesson4/mycpu/serializers.py .
+```
 ![l4s39.png](images/l4s39.png)
+
+```
+~/mycpu/myapp $ nano views.py
+```
 ![l4s40.png](images/l4s40.png)
+
+```
+~/mycpu/myapp $ mkdir static templates
+~/mycpu/myapp $ cd templates
+~/mycpu/myapp/templates $ mkdir myapp
+~/mycpu/myapp/templates $ cd myapp
+~/mycpu/myapp/templates/myapp $ cp ~/iot/lesson4/mycpu/index.html .
+```
 ![l4s41.png](images/l4s41.png)
+
+```
+~/mycpu/myapp/templates/myapp $ nano index.html
+```
+again, the api is paid, but this is how you would edit it
 ![l4s42.png](images/l4s42.png)
+
+
+```
+~/mycpu/myapp/templates/myapp $ cd ~/mycpu/myapp/static
+~/mycpu/myapp/static $ cp ~/iot/lesson4/static/favicon.ico .
+~/mycpu/myapp/static $ mkdir myapp
+~/mycpu/myapp/static $ cd myapp
+~/mycpu/myapp/static/myapp $ cp ~/iot/lesson4/static/*css .
+~/mycpu/myapp/static/myapp $ cp ~/iot/lesson4/static/*js .
+~/mycpu/myapp/static/myapp $ cd ~/mycpu
+```
+```
+Stevens favicon: ~/iot/lesson4/static/favicon.ico
+Xidian favicon: ~/iot/lesson4/static/xidian/favicon.ico
+```
 ![l4s43.png](images/l4s43.png)
+
+
+ghghgh
 ![l4s44.png](images/l4s44.png)
 ![l4s45.png](images/l4s45.png)
 ![l4s46.png](images/l4s46.png)
