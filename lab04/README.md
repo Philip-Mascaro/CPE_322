@@ -253,39 +253,130 @@ Xidian favicon: ~/iot/lesson4/static/xidian/favicon.ico
 ![l4s43.png](images/l4s43.png)
 
 
-ghghgh
+```
+~/mycpu $ ls
+~/mycpu $ cp ~/iot/lesson4/mycpu/controller.py .
+```
+```
+~/mycpu $ nano controller.py
+```
+```
+~/mycpu $ sudo pip install -U psutil
+```
 ![l4s44.png](images/l4s44.png)
 ![l4s45.png](images/l4s45.png)
+
+```
+~/mycpu $ python manage.py makemigrations myapp
+~/mycpu $ python manage.py migrate
+~/mycpu $ python manage.py createsuperuser
+Username (leave blank to use '_'): admin
+Email address: EMAIL_ADDRESS
+Password: admin
+Password (again): admin
+The password is too similar to the username.
+This password is too short. It must contain at least 8 characters.
+This password is too common.
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+```
 ![l4s46.png](images/l4s46.png)
 ![l4s47.png](images/l4s47.png)
+
+
+```
+~/mycpu $ python manage.py runserver
+```
 ![l4s48.png](images/l4s48.png)
+
+
+```
+At the first time, go to http://127.0.0.1:8000/admin
+Login with Django administration username (admin) and password (admin)
+Click location data to add one of the following
+Location Stevens
+Latitude 40.7451
+Longitude -74.0255
+Location Xidian
+Latitude 34.12250
+Longitude 108.84029
+Click SAVE
+```
 ![l4s49.png](images/l4s49.png)
+
+
+```
+Post the following in HTML form:
+2022 to the Dt List at http://127.0.0.1:8000/dt
+20 to the Cpu List at http://127.0.0.1:8000/cpu
+20 to the Mem List at http://127.0.0.1:8000/mem
+```
+did 2023
 ![l4s50.png](images/l4s50.png)
 ![l4s51.png](images/l4s51.png)
 ![l4s52.png](images/l4s52.png)
 ![l4s53.png](images/l4s53.png)
+
+
+```
+~/mycpu $ python controller.py
+```
+using another window because the server is running in the first window
 ![l4s54.png](images/l4s54.png)
 ![l4s55.png](images/l4s55.png)
+
+```
+View app at http://127.0.0.1:8000/home
+```
+for some reason the website wasnt loading properly
 ![l4s56.png](images/l4s56.png)
+
+attempted using 2022 as per instructions, didn't work
 ![l4s57.png](images/l4s57.png)
+
+checking the error logs, change the year in the file from 2021 to 2023
 ![l4s58.png](images/l4s58.png)
 ![l4s59.png](images/l4s59.png)
+
+change the year back to 2023 from 2022
 ![l4s60.png](images/l4s60.png)
+
+because it was not working, attempted this suggested command:
+```
+Alternatively, run Django server at 0.0.0.0:8000
+~/mycpu $ python manage.py runserver 0.0.0.0:8000
+```
 ![l4s61.png](images/l4s61.png)
+because it was still not working, I decided to move on and troubleshoot it at a later time\
+
+```
+$ cd ~/iot/lesson4
+python3 hello_world.py
+```
+```
+Run Flask server and open a browser via VNC Viewer and go to http://127.0.0.1:5000/
+```
 ![l4s62.png](images/l4s62.png)
 ![l4s63.png](images/l4s63.png)
 ![l4s64.png](images/l4s64.png)
 
 
-TROUBLESHOOTING STARTS HERE
+TROUBLESHOOTING STARTS HERE\
+after consulting the professor, the issues we discussed are that the passwords didn't match, and the folder was not in the right location\
+change the passwords, attempt to run the code without it working
 ![l4s65.png](images/l4s65.png)
 ![l4s66.png](images/l4s66.png)
 ![l4s67.png](images/l4s67.png)
 ![l4s68.png](images/l4s68.png)
 ![l4s69.png](images/l4s69.png)
 ![l4s70.png](images/l4s70.png)
+
+move the folder, attempt to run the code without it working
 ![l4s71.png](images/l4s71.png)
 ![l4s72.png](images/l4s72.png)
+
+realize the server needs to be running in one terminal and then the code can be run in a different terminal
 ![l4s73.png](images/l4s73.png)
 ![l4s74.png](images/l4s74.png)
 ![l4s75.png](images/l4s75.png)
+program now runs properly!!
