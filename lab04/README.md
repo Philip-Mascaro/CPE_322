@@ -63,3 +63,17 @@ note: will add copyable commands later
 ![l4s62.png](images/l4s62.png)
 ![l4s63.png](images/l4s63.png)
 ![l4s64.png](images/l4s64.png)
+
+
+TROUBLESHOOTING STARTS HERE
+![l4s65.png](images/l4s65.png)
+![l4s66.png](images/l4s66.png)
+![l4s67.png](images/l4s67.png)
+![l4s68.png](images/l4s68.png)
+![l4s69.png](images/l4s69.png)
+![l4s70.png](images/l4s70.png)
+![l4s71.png](images/l4s71.png)
+![l4s72.png](images/l4s72.png)
+![l4s73.png](images/l4s73.png)
+![l4s74.png](images/l4s74.png)
+![l4s75.png](images/l4s75.png)
